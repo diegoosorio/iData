@@ -5,11 +5,14 @@ class(iris)  # Clase del objeto
 typeof(iris) # Tipo del objeto
 str(iris)    # Información sobre su estructura
 
+datos <- as.data.frame(iris)
+
 summary(iris) # Resumen de contenido
 head(iris)  # Primeras filas 
 tail(iris)  # últimas filas
 # Selección de filas y columnas
 iris$Sepal.Length[which(iris$Species == 'versicolor')] 
+
 
 # -----------------------------------------------------------------
 # Estadástica descriptiva

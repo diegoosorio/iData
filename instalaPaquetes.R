@@ -8,6 +8,8 @@ is.installed <- function(paquete) is.element(
 
 is.installed('data.table')
 is.installed('DataExplorer')
+is.installed('dplyr')
+is.installed('anytime')
 
 if(!is.installed('DataExplorer'))  
   install.packages("DataExplorer")
